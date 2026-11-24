@@ -31,7 +31,7 @@ sudo apt update && sudo apt install -y dnsutils nmap git
 ## Instalación y uso
 
 ```bash
-git clone <URL_DEL_REPOSITORIO>
+git clone https://github.com/puenteuropaismael-max/labs3-dns-nmap.git
 cd labs3-dns-nmap
 chmod +x dns_nmap_audit.sh
 ./dns_nmap_audit.sh
