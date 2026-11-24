@@ -1,0 +1,20 @@
+=== RECONOCIMIENTO DNS: scanme.nmap.org (mar 24 nov 2026 02:35:20 CET) ===
+
+[0;34m[*] Obteniendo registros A (IPv4) y AAAA (IPv6) para scanme.nmap.org...[0m
+[0;32mDirecciones IPv4 (Registro A):[0m
+45.33.32.156
+[0;32mDirecciones IPv6 (Registro AAAA):[0m
+  (Sin registros AAAA)
+
+[0;34m[*] Obteniendo servidores de correo (Registro MX - datos sensibles) para scanme.nmap.org...[0m
+  (Sin registros MX)
+
+[0;34m[*] Obteniendo servidores de nombres (Registro NS) para scanme.nmap.org...[0m
+  (Sin registros NS)
+
+[0;34m[*] Obteniendo registros TXT (SPF/DMARC/verificaciones) y SOA para scanme.nmap.org...[0m
+[0;32mRegistros TXT:[0m
+  (Sin registros TXT)
+
+[0;32mRegistro SOA (Autoridad de zona):[0m
+  (Sin registro SOA)

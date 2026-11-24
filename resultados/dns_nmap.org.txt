@@ -1,0 +1,41 @@
+=== RECONOCIMIENTO DNS: nmap.org (mar 24 nov 2026 02:39:11 CET) ===
+
+[0;34m[*] Obteniendo registros A (IPv4) y AAAA (IPv6) para nmap.org...[0m
+[0;32mDirecciones IPv4 (Registro A):[0m
+50.116.1.184
+[0;32mDirecciones IPv6 (Registro AAAA):[0m
+  (Sin registros AAAA)
+
+[0;34m[*] Obteniendo servidores de correo (Registro MX - datos sensibles) para nmap.org...[0m
+[0;32mServidores de correo encontrados:[0m
+10 ASPMX2.GOOGLEMAIL.COM.
+1 ASPMX.L.GOOGLE.COM.
+5 ALT2.ASPMX.L.GOOGLE.COM.
+10 ASPMX3.GOOGLEMAIL.COM.
+5 ALT1.ASPMX.L.GOOGLE.COM.
+  -> [1;33mASPMX2.GOOGLEMAIL.COM[0m => 192.178.213.27
+  -> [1;33mASPMX.L.GOOGLE.COM[0m => 142.251.168.26
+  -> [1;33mALT2.ASPMX.L.GOOGLE.COM[0m => 142.251.127.26
+  -> [1;33mASPMX3.GOOGLEMAIL.COM[0m => 142.251.127.26
+  -> [1;33mALT1.ASPMX.L.GOOGLE.COM[0m => 192.178.213.26
+
+[0;34m[*] Obteniendo servidores de nombres (Registro NS) para nmap.org...[0m
+[0;32mServidores DNS autoritativos:[0m
+ns1.linode.com.
+ns4.linode.com.
+ns2.linode.com.
+ns5.linode.com.
+ns3.linode.com.
+  -> [1;33mns1.linode.com[0m => 92.123.94.2
+  -> [1;33mns4.linode.com[0m => 92.123.95.4
+  -> [1;33mns2.linode.com[0m => 92.123.94.3
+  -> [1;33mns5.linode.com[0m => 92.123.95.2
+  -> [1;33mns3.linode.com[0m => 92.123.95.3
+
+[0;34m[*] Obteniendo registros TXT (SPF/DMARC/verificaciones) y SOA para nmap.org...[0m
+[0;32mRegistros TXT:[0m
+"google-site-verification=SrtYpJGxZzMTcczZG44XtLVK-sEPit9bputDjWc0lF4"
+"v=spf1 a mx ptr ip4:50.116.1.184 ip6:2600:3c01::f03c:91ff:fe98:ff4e ip6:2600:3c01:e000:3e6::6d4e:7061 include:_spf.google.com ~all"
+
+[0;32mRegistro SOA (Autoridad de zona):[0m
+ns1.linode.com. hostmaster.nmap.com. 2021000018 14400 14400 1209600 3600
